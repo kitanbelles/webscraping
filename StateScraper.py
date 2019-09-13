@@ -43,7 +43,7 @@ class lgaScrapper():
         # # options = webdriver.FirefoxOptions()
         # self.driver = webdriver.Firefox(r'C:\Users\HP\Downloads\Software Setups\geckodriver')
         
-        self.driver = webdriver.Chrome(r'C:\Users\otaladesuyi\Documents\Apps\chromedriver')
+        self.driver = webdriver.Chrome(r'path to webdriver')
         self.driver.get(self.url)
         sleep(2)
 
